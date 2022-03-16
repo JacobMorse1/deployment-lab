@@ -1,5 +1,5 @@
 img {
-    display: flex;
+    display: flexbox;
     flex-direction: column;
     align-items: flex-start;
     margin-top: 25px;
@@ -19,7 +19,7 @@ h1 {
 }
 
 p {
-    display: flex;
+    display: flexbox;
     flex-direction: column;
     align-items: flex-end;
     text-align: justify;
