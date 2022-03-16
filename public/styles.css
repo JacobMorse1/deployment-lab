@@ -25,3 +25,7 @@ p {
     text-align: justify;
     font-size: 18pt;
 }
+#name {
+    font-size: 24;
+    font-weight: 200;
+}
