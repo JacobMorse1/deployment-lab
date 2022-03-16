@@ -20,8 +20,12 @@ h1 {
 }
 
 h2 {
-    text-decoration: none;
+    /* text-decoration: none; */
     text-align: center;
+}
+
+a{
+    text-decoration: none;
 }
 
 p {
