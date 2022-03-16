@@ -1,8 +1,10 @@
 img {
-    display: flexbox;
-    justify-content: center;
-    max-width: 500px;
-    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    max-width: 200px;
+    max-height: 200px;
     border: 2px black solid;
     box-shadow: 2px;
 }
