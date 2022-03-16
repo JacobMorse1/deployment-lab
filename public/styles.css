@@ -1,7 +1,8 @@
 img {
-    display: flexbox;
-    flex-direction: column;
-    align-items: flex-start;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
     margin-top: 25px;
     margin-bottom: 25px;
     max-width: 200px;
@@ -19,9 +20,9 @@ h1 {
 }
 
 p {
-    display: flexbox;
-    flex-direction: column;
-    align-items: flex-end;
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: flex-end; */
     text-align: justify;
     font-size: 18pt;
 }
