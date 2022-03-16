@@ -1,5 +1,5 @@
 img {
-    display: flex;
+    display: flexbox;
     justify-content: center;
     max-width: 500px;
     max-height: 500px;
@@ -13,4 +13,10 @@ h1 {
     color: black;
     text-decoration: none;
     background-color: green;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
