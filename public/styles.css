@@ -20,12 +20,15 @@ h1 {
 }
 
 h2 {
-    /* text-decoration: none; */
+    color: black;
     text-align: center;
 }
 
 a{
     text-decoration: none;
+}
+a:hover {
+    color: red;
 }
 
 p {
