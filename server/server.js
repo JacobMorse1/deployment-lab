@@ -31,6 +31,10 @@ app.post('../public', (req, res) => {
         rollbar.error("This is a fake function")
         console.error(error)
     }
+});
+
+app.get('../public/', (req, res) => {
+    
 })
 
 // app.get('/', function(req, res) {
