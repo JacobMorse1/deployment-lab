@@ -34,7 +34,19 @@ app.post('../public', (req, res) => {
 });
 
 app.get('../public/', (req, res) => {
-    
+    try {
+        playFunction();
+    } catch (error) {
+        rollbar.critical("The page has failed to load")
+    }
+})
+
+app.post('../public/', (req, res) => {
+    try {
+        rollbar.info("Menu link worked")
+    } catch {
+        rollbar.warning("Menu link doesn't work")
+    }
 })
 
 // app.get('/', function(req, res) {
